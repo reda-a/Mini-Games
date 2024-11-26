@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijeras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Piedra, Papel o Tijeras</h1>
+    <div class="scoreboard">
+      <div class="score-screen player">
+        <p>Jugador</p>
+        <p><span id="player-score">0</span></p>
+      </div>
+      <div class="score-screen ai">
+        <p>IA</p>
+        <p><span id="ai-score">0</span></p>
+      </div>
+    </div>
+    <div class="choices">
+      <button class="choice" data-choice="piedra">🪨</button>
+      <button class="choice" data-choice="papel">📄</button>
+      <button class="choice" data-choice="tijeras">✂️</button>
+    </div>
+    <div class="results">
+      <div class="icons">
+        <p>Jugador: <span id="player-icon">---</span></p>
+        <p>IA: <span id="ai-icon">---</span></p>
+      </div>
+      <h2 id="outcome">¡Haz tu jugada!</h2>
+    </div>
+  </div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2 id="popup-message"></h2>
+      <button id="restart-button">Jugar de nuevo</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
