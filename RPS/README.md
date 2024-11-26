@@ -27,7 +27,7 @@ Instalación
 
 1. Clona este repositorio en tu máquina local:
 
-   git clone https://github.com/reda-a/rps.git
+   https://github.com/reda-a/mini-games/rps.git
 
 
 2. Abre el archivo "index.html" en tu navegador para jugar.
