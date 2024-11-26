@@ -1,0 +1,114 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Cuadros de puntuación */
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.score-screen {
+  background-color: #f53de6;
+  color: #003300;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border: 4px solid #003300;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Botones de elección */
+.choices {
+  margin: 20px 0;
+}
+
+.choice {
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Resultados */
+.results {
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+#outcome {
+  color: #444;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
