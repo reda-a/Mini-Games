@@ -21,24 +21,23 @@ Path Hunter 🧩
 
 How to Play  
 1. Clone the repository:  
-
-   git clone https://github.com/reda-a/mini-games.git
+	https://github.com/reda-a/mini-games.git
 2. Open the desired game project in your preferred IDE.
 3. Press Play!
 
 Roadmap
 
-    Add more mini-games with diverse mechanics.
-    Improve game polish and user interface.
-    Include multiplayer features in selected games.
+- Add more mini-games with diverse mechanics.
+- Improve game polish and user interface.
+- Include multiplayer features in selected games.
 
 Contributions
 
 Contributions are welcome!
 
-    Fork this repository.
-    Create a branch for your feature or fix.
-    Submit a pull request and let’s build something amazing together.
+- Fork this repository.
+- Create a branch for your feature or fix.
+- Submit a pull request and let’s build something amazing together.
 
 License
 
