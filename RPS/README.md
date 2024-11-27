@@ -23,15 +23,6 @@ Requisitos
 - Navegador web (Chrome, Firefox, Edge, etc.).
 - No requiere instalación, solo clona o descarga el repositorio y abre el archivo "index.html" en tu navegador.
 
-Instalación
-
-1. Clona este repositorio en tu máquina local:
-
-   https://github.com/reda-a/mini-games/rps.git
-
-
-2. Abre el archivo "index.html" en tu navegador para jugar.
-
 Estructura de Archivos
 
 - "index.html": El archivo principal del juego con la estructura HTML.
